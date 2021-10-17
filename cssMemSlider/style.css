@@ -140,3 +140,36 @@ span.radio-btn {
   transform: translateX(0);
   transition: all .5s;
 }
+
+
+
+@media (max-width: 800px) {
+  .labels {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .fake-radio {
+    margin: 0 auto;
+  }
+  body {
+    font-size: 15px;
+  }
+  .text-labels {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .labels {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .fake-radio {
+    margin: 0 auto;
+  }
+  body {
+    font-size: 8px;
+  }
+}
